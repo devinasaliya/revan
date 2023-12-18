@@ -1,4 +1,4 @@
-FROM phusion/baseimage:jammy-1.0.1
+FROM phusion/baseimage:bionic-1.0.0-arm64
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
