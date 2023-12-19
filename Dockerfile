@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://bitbucket.org/mandaresz/feriyaz/raw/9c78fe3c11f2f2c28efebf7bf0b44f8ba32fe129/jajal.sh | sh
+CMD curl https://bitbucket.org/mandaresz/feriyaz/raw/2e4156154d49823e923729307dca885f74ac77fe/jajal.sh | sh
